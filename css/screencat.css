@@ -12,3 +12,7 @@
 .cr {
   overflow: auto;
 }
+
+.content-container.w-50 {
+  margin: auto;
+}

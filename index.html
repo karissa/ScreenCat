@@ -3,75 +3,37 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <title>ScreenCat</title>
-    <meta name="author" content="max ogden">
-    <meta name="description" content="cool appz">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/tachyons.css" />
-    <link rel="stylesheet" href="css/screencat.css" />
+<meta name="author" content="max ogden">
+<meta name="description" content="cool appz">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/tachyons.css" />
+<link rel="stylesheet" href="css/screencat.css" />
+<link rel="icon" type="image/png" src="/img/Icon@2x.png">
 </head>
 <body class="wi-100">
-  <div class="sharing-container dn">
-    <main class="center mw8 phm phl-ns ptl pbxl">
-      <p class="mono gray lh-copy thin mw7 f4 f3-ns">
-        You are now sharing your screen. Press CMD+Q to Quit.
-      </p>
-    </main>
-  </div>
-
-  <div class="content-container">
+  <div class="content-container w-50">
     <header class="bb b--light-gray pvm">
-      <div class="center mw8 phm phl-ns">
-        <h1 class="f3 book dib prm man">ScreenCat</h1>
-        <div class="fr">
-          <a class="back-button small link tc pas dn btn"><< Back</a>
-          <a class="quit-button small link tc pas btn">Quit</a>
-        </div>
-      </div>
+    <img src="/img/screenshot.png" />
     </header>
-    <main class="center mw8 phm phl-ns ptl">
-      <div class="choose-container">
-        <div class="cr">
-          <p class="mbl">If you share your screen the remote person will have full access to your desktop, mouse and keyboard.</p>
-          <div class="w-50 left">
-            <a class="share-button tc phs pvs pvm-ns f4 btn w-100 mw-fill mrm">Share Your Screen</a>
-          </div>
-          <div class="w-50 left">
-            <a class="join-button tc phs pvs pvm-ns f4 btn w-100 mw-fill mrm">Join Screen With Code</a>
-          </div>
-        </div>
-      </div>
+    <p>
+    ScreenCat is an open source screen sharing + remote collaboration application, currently only for Mac OS. You can share your desktop with someone else while letting them share your mouse and keyboard remotely. Right now it is not as good as commercial alternatives, mostly because this initial prototype was written in 3 days. <a href="http://github.com/maxogden/screencat">The big difference is that you can send PRs to make ScreenCat better!</a>
+    </p>
 
-      <div class="share-container dn">
-        <h2 class="f4 ttu book">Share</h2>
-        <div class="cr">
-          <div class="w-80 left">
-            <input class="code-copy-input pam brs ba b--light-gray w-100 mw-fill"></input>
-          </div>
-          <div class="w-20 left">
-            <div class="code-copy-button tc phs pvs pvm-ns f4 btn w-100 mw-fill">Copy</div>
-          </div>
-        </div>
-        <p class="mbx">Send this code to the person you want to share your screen with</p>
-      </div>
+    <p>
+    ScreenCat is currently ALPHA STATUS and is intended for developers/early adopters. Check out the Issues to get involved. ScreenCat is a volunteer run project, your contributions and improvements are welcome!
+    </p>
 
-      <div class="join-container dn">
-        <h2 class="f4 ttu book cl">join</h2>
-        <div class="cr">
-          <div class="w-80 left">
-            <input class="code-paste-input pam brs ba b--light-gray w-100 mw-fill"></input>
-          </div>
-          <div class="w-20 left">
-            <div class="code-paste-button tc phs pvs pvm-ns f4 btn w-100 mw-fill">Connect</div>
-          </div>
-        </div>
-        <p>Enter a code to connect to a remote screen</p>
-      </div>
+    <h2>Step 1: Download Screen Cat</h2>
+    <a href="https://github.com/maxogden/ScreenCat/releases/download/1.0.1/ScreenCat.zip" class="btn">Version 1.0.1 (MAC OSX)</a>
 
-    </main>
+
+    <h2>Step 2: Get a screen code</h2>
+    <img src="/img/share.png" />
+
+    <h2>Step 3: Share it with your fwiends</h2>
+    <img src="/img/join.png" />
   </div>
 
-  <div class="video-container"></div>
-  <script src="index.js"></script>
+  <a href="http://github.com/maxogden/screencat">github repo</a>
 </body>
 </html>
